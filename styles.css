@@ -102,16 +102,12 @@ font-size: 30px;
 }
 
 
-
-
-
-.styled {
-  border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  font-size: 1rem;
-  text-align: center;
-  color: #fff;
+.bouton-command {
+            width: 200px; /* Largeur de 200 pixels */
+            height: 50px; /* Hauteur de 50 pixels */
+            font-size: 22px; /* Taille de police */
+			text-align: center;
+			color: #fff;
   text-shadow: 1px 1px 1px #000;
   border-radius: 10px;
   background-color: rgba(220, 0, 0, 1);
@@ -120,32 +116,6 @@ font-size: 30px;
     inset 2px 2px 3px rgba(255, 255, 255, 0.6),
     inset -12px -12px 13px rgba(0, 0, 0, 0.6);
 	font-family: 'Lucida Handwriting', cursive;
-}
 
-.styled:hover {
-  background-color: rgba(255, 0, 0, 1);
-}
 
-.styled:active {
-  box-shadow:
-    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
 
-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        
-   
-input {
-            font-family: 'Lucida Handwriting', cursive;
-        }
-
-option {
-            font-family: 'Lucida Handwriting', cursive;
-        }
-		
-select {
-            font-family: 'Lucida Handwriting', cursive;
-        }
