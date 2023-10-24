@@ -1,8 +1,8 @@
 
 	img {
-  --s: 5px;  /* size of the frame */
-  --b: 2px;   /* border thickness */
-  --w: 250px; /* width of the image */
+  --s: 0px;  /* size of the frame */
+  --b: 1px;   /* border thickness */
+  --w: 450px; /* width of the image */
   --c: #f2022a;
   		margin-right: 100px;
 		margin-left: 100px;
@@ -23,14 +23,12 @@ img:hover {
 
 }
 
-img {
-border-radius: 50%;
-}
+
 
 
 .header {
-  	height: 20vh;
-	  background: #ccc8c8;
+  	height: 12vh;
+	  background: ##faf7f8;
   	background-image: 
 	  linear-gradient(to right bottom, 
      rgba(85, 107, 47, 8 ),
@@ -41,12 +39,14 @@ border-radius: 50%;
   	background-position: top;
   	position: relative;
 
+
   	clip-path: polygon(0 0, 100% , 100% , 0 100%);
 	
 }
-h1 {
+titre {
             color: black;
 			font-family: 'Lucida Handwriting', cursive;
+			font-size: 60px;
         }
 	
 
@@ -58,7 +58,7 @@ h1 {
   	background-position: top;
 	padding: 50px;
   	position: relative;
-	  background: #ccc8c8;
+	  background: #faf7f8;
 	  font-family: 'Lucida Handwriting', cursive;
 
   	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -86,7 +86,7 @@ body {
 		min-height: 100vh;
 		display: block;
 		margin: 8px;
-  background: #ccc8c8;
+  background: #faf7f8;
   font-family: 'Lucida Handwriting', cursive;
 
 }
@@ -98,6 +98,7 @@ body {
 
 div_DesItem {
 color:black;
+font-size: 20px;
 }
 
 
@@ -132,7 +133,7 @@ color:black;
 }
 
 table {
-            width: 80%;
+            width: 100%;
             border-collapse: collapse;
         }
         
