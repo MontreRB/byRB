@@ -30,7 +30,7 @@ border-radius: 50%;
 
 .header {
   	height: 20vh;
-	  background: ##faf7f8;
+	  background: #ccc8c8;
   	background-image: 
 	  linear-gradient(to right bottom, 
      rgba(85, 107, 47, 8 ),
@@ -58,7 +58,7 @@ h1 {
   	background-position: top;
 	padding: 50px;
   	position: relative;
-	  background: #faf7f8;
+	  background: #ccc8c8;
 	  font-family: 'Lucida Handwriting', cursive;
 
   	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -86,7 +86,7 @@ body {
 		min-height: 100vh;
 		display: block;
 		margin: 8px;
-  background: #faf7f8;
+  background: #ccc8c8;
   font-family: 'Lucida Handwriting', cursive;
 
 }
