@@ -45,7 +45,7 @@ border-radius: 50%;
 	
 }
 h1 {
-            color: white;
+            color: black;
 			font-family: 'Lucida Handwriting', cursive;
         }
 	
@@ -58,7 +58,7 @@ h1 {
   	background-position: top;
 	padding: 50px;
   	position: relative;
-	  background: #000000;
+	  background: #faf7f8;
 	  font-family: 'Lucida Handwriting', cursive;
 
   	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -86,7 +86,7 @@ body {
 		min-height: 100vh;
 		display: block;
 		margin: 8px;
-  background: #000000;
+  background: #faf7f8;
   font-family: 'Lucida Handwriting', cursive;
 
 }
@@ -97,7 +97,7 @@ body {
 
 
 div_DesItem {
-color:white;
+color:black;
 }
 
 
