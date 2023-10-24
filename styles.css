@@ -45,7 +45,7 @@ img:hover {
 }
 titre {
             color: black;
-			font-family: 'Lucida Handwriting', cursive;
+			font-family: 'Helvetica', cursive;
 			font-size: 60px;
         }
 	
@@ -59,7 +59,7 @@ titre {
 	padding: 50px;
   	position: relative;
 	  background: #faf7f8;
-	  font-family: 'Lucida Handwriting', cursive;
+	  font-family: 'Helvetica', cursive;
 
   	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 	
@@ -87,7 +87,7 @@ body {
 		display: block;
 		margin: 8px;
   background: #faf7f8;
-  font-family: 'Lucida Handwriting', cursive;
+  font-family: 'Helvetica', cursive;
 
 }
 
@@ -97,6 +97,11 @@ body {
 
 
 div_DesItem {
+color:black;
+font-size: 30px;
+}
+
+p {
 color:black;
 font-size: 30px;
 }
@@ -115,7 +120,21 @@ font-size: 30px;
   box-shadow:
     inset 2px 2px 3px rgba(255, 255, 255, 0.6),
     inset -12px -12px 13px rgba(0, 0, 0, 0.6);
-	font-family: 'Lucida Handwriting', cursive;
+	font-family: 'Helvetica', cursive;
+}
 
-
-
+.commande {
+            width: 200px; /* Largeur de 200 pixels */
+            height: 50px; /* Hauteur de 50 pixels */
+            font-size: 22px; /* Taille de police */
+			text-align: center;
+			color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -12px -12px 13px rgba(0, 0, 0, 0.6);
+	font-family: 'Helvetica', cursive;
+}
