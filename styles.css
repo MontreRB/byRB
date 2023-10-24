@@ -30,7 +30,7 @@ border-radius: 50%;
 
 .header {
   	height: 20vh;
-	  background: ##000000;
+	  background: ##faf7f8;
   	background-image: 
 	  linear-gradient(to right bottom, 
      rgba(85, 107, 47, 8 ),
@@ -97,7 +97,7 @@ body {
 
 
 div_DesItem {
-color:black;
+color:white;
 }
 
 
