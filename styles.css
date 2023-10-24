@@ -2,7 +2,7 @@
 	img {
   --s: 0px;  /* size of the frame */
   --b: 1px;   /* border thickness */
-  --w: 450px; /* width of the image */
+  --w: 400px; /* width of the image */
   --c: #f2022a;
   		margin-right: 100px;
 		margin-left: 100px;
