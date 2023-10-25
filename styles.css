@@ -58,7 +58,7 @@ titre {
   	background-position: top;
 	padding: 50px;
   	position: relative;
-	  background: #faf7f8;
+	  background: #f5e6c4;
 	  font-family: 'Helvetica', cursive;
 
   	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -86,7 +86,7 @@ body {
 		min-height: 100vh;
 		display: block;
 		margin: 8px;
-  background: #faf7f8;
+  background: #f5e6c4;
   font-family: 'Helvetica', cursive;
 
 }
@@ -106,32 +106,38 @@ color:black;
 font-size: 30px;
 }
 
-
-.bouton-command {
-            width: 200px; /* Largeur de 200 pixels */
-            height: 50px; /* Hauteur de 50 pixels */
-            font-size: 22px; /* Taille de police */
-			text-align: center;
-			color: #fff;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: rgba(220, 0, 0, 1);
-  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-  box-shadow:
-    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -12px -12px 13px rgba(0, 0, 0, 0.6);
-	font-family: 'Helvetica', cursive;
+label {
+color:black;
+font-size: 30px;
+display: block;
+            margin-bottom: 5px;
 }
+
+input {
+color:black;
+font-size: 30px;
+}
+
+textarea {
+color:black;
+font-size: 30px;
+}
+
+select {
+color:black;
+font-size: 25px;
+}
+
 
 .commande {
             width: 200px; /* Largeur de 200 pixels */
             height: 50px; /* Hauteur de 50 pixels */
             font-size: 22px; /* Taille de police */
 			text-align: center;
-			color: #fff;
+			color: #f5e6c4;
   text-shadow: 1px 1px 1px #000;
   border-radius: 10px;
-  background-color: rgba(220, 0, 0, 1);
+  background-color: #ae9c8f;
   background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
   box-shadow:
     inset 2px 2px 3px rgba(255, 255, 255, 0.6),
