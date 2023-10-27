@@ -46,7 +46,7 @@ img:hover {
 titre {
             color: black;
 			font-family: 'Helvetica', cursive;
-			font-size: 60px;
+			font-size: 80px;
         }
 	
 
@@ -110,13 +110,13 @@ label {
 color:black;
 font-size: 30px;
 display: block;
-            margin-bottom: 5px;
+margin-bottom: 5px;
 }
 
 .commande {
             width: 200px; /* Largeur de 200 pixels */
             height: 50px; /* Hauteur de 50 pixels */
-            font-size: 22px; /* Taille de police */
+            font-size: 30px; /* Taille de police */
 			text-align: center;
 			color: #f5e6c4;
   text-shadow: 1px 1px 1px #000;
@@ -135,16 +135,16 @@ display: block;
 
 input {
 font-color:black;
-font-size: 28px;
-width: width: 60%;;
+font-size: 35px;
+width: width: 90%;;
 }
 
 #wilaya {
     font-family: Arial, sans-serif; /* Police */
-	font-size: 28px;
+	font-size: 35px;
     color: Black; /* Couleur du texte */
     background-color: white;
-	width: 20%;
+	width: 80%;
     padding: 5px; /* Marge intérieure */
     border: 1px solid #ccc; /* Bordure */
 }
@@ -152,23 +152,23 @@ width: width: 60%;;
 
 #livraison {
     font-family: Arial, sans-serif; /* Police */
-	font-size: 28px;
+	font-size: 358px;
     color: Black; /* Couleur du texte */
     background-color: white;
-	width: 20%;
+	width: 800%;
     padding: 5px; /* Marge intérieure */
     border: 1px solid #ccc; /* Bordure */
 }
 
 #commande {
    
-    width: 60%; /* Permet à la largeur de s'ajuster automatiquement */
-	font-size: 28px;
+    width: 90%; /* Permet à la largeur de s'ajuster automatiquement */
+	font-size: 35px;
 }
 #wilaya {
    
-    width: 30%; /* Permet à la largeur de s'ajuster automatiquement */
-	font-size: 30px;
+    width: 80%; /* Permet à la largeur de s'ajuster automatiquement */
+	font-size: 35px;
 	color:brown-negro;
 }
 
@@ -176,8 +176,8 @@ width: width: 60%;;
 
 #adresse {
    
-    width: 50%; /* Permet à la largeur de s'ajuster automatiquement */
-	font-size: 30px;
+    width: 80%; /* Permet à la largeur de s'ajuster automatiquement */
+	font-size: 35px;
 	color:brown-negro;
 }
 
