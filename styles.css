@@ -113,22 +113,6 @@ display: block;
             margin-bottom: 5px;
 }
 
-input {
-color:black;
-font-size: 30px;
-}
-
-textarea {
-color:black;
-font-size: 30px;
-}
-
-select {
-color:black;
-font-size: 25px;
-}
-
-
 .commande {
             width: 200px; /* Largeur de 200 pixels */
             height: 50px; /* Hauteur de 50 pixels */
@@ -144,3 +128,62 @@ font-size: 25px;
     inset -12px -12px 13px rgba(0, 0, 0, 0.6);
 	font-family: 'Helvetica', cursive;
 }
+
+
+
+
+
+input {
+font-color:black;
+font-size: 28px;
+width: width: 60%;;
+}
+
+#wilaya {
+    font-family: Arial, sans-serif; /* Police */
+	font-size: 28px;
+    color: Black; /* Couleur du texte */
+    background-color: white;
+	width: 20%;
+    padding: 5px; /* Marge intérieure */
+    border: 1px solid #ccc; /* Bordure */
+}
+
+
+#livraison {
+    font-family: Arial, sans-serif; /* Police */
+	font-size: 28px;
+    color: Black; /* Couleur du texte */
+    background-color: white;
+	width: 20%;
+    padding: 5px; /* Marge intérieure */
+    border: 1px solid #ccc; /* Bordure */
+}
+
+#commande {
+   
+    width: 60%; /* Permet à la largeur de s'ajuster automatiquement */
+	font-size: 28px;
+}
+#wilaya {
+   
+    width: 30%; /* Permet à la largeur de s'ajuster automatiquement */
+	font-size: 30px;
+	color:brown-negro;
+}
+
+
+
+#adresse {
+   
+    width: 50%; /* Permet à la largeur de s'ajuster automatiquement */
+	font-size: 30px;
+	color:brown-negro;
+}
+
+
+
+
+
+
+
