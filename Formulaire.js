@@ -1,3 +1,14 @@
+    const boutonsCommande = document.querySelectorAll('.commande');
+    
+    boutonsCommande.forEach(function(bouton) {
+        bouton.addEventListener("click", function() {
+            const h2Text = bouton.closest('.product').querySelector("h2").textContent;
+            sessionStorage.setItem("h2text", h2Text);
+            window.open("Formulaire.html", "_blank");
+        });
+    });
+
+
 // script pour coller auto de la commande choisi   
    document.addEventListener("DOMContentLoaded", function() {
         const h2text = sessionStorage.getItem("h2text");
