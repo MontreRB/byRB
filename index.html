@@ -123,35 +123,31 @@
 
 
 <script>
-    // Fonction pour copier le texte du produit
-    function copierTexte(texte) {
-      const textarea = document.createElement("textarea");
-      textarea.value = texte;
-      document.body.appendChild(textarea);
-      textarea.select();
-      document.execCommand('copy');
-      document.body.removeChild(textarea);
-    }
-
-    // Ajoutez ici du JavaScript pour gérer les interactions avec les boutons de commande
     const boutonsCommande = document.querySelectorAll('.commande');
+    
     boutonsCommande.forEach(function(bouton) {
-      bouton.addEventListener('click', function() {
-        const nomProduit = this.parentElement.querySelector('h2').textContent;
-        const confirmation = confirm(`Je commande : ${nomProduit}?`);
-
-        if (confirmation) {
-          copierTexte(nomProduit);
-           const googleDriveURL = 'https://forms.gle/FrS9M6BGptVArFrK6'; // Remplacez par votre propre lien
-          window.open(googleDriveURL, '_blank');
-		  
-		
-          // Vous pouvez ajouter ici un code pour gérer la commande du produit
-        }
-      });
+        bouton.addEventListener("click", function() {
+            const h2Text = bouton.closest('.product').querySelector("h2").textContent;
+            sessionStorage.setItem("h2text", h2Text);
+            window.open("Formulaire.html", "_blank");
+        });
     });
-  </script>
+</script>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
    <footer class="footer">
