@@ -89,17 +89,17 @@
 	
 	<form id="myForm" method="post">
 	
-	    <label for="commande">Ma Commande :</label>
+	<label for="commande">Ma Commande :</label><br>
         <input type="text" id="commande" name="commande" readonly><br><br>
 	
         <label for="nom">Nom & Prénom :</label>
         <input type="text" id="nom" name="nom" required><br><br>
 
-        <label for="telephone">Téléphone :</label>
+        <label for="telephone">Téléphone :</label><br>
         <input type="tel" id="telephone" name="telephone" pattern="[0-9\s()-]+" required><br><br>
 		
-		<label for="wilaya">Wilaya :</label>
-		<select id="wilaya" name="wilaya">
+	<label for="wilaya">Wilaya :</label><br>
+	<select id="wilaya" name="wilaya">
 				<option value="01- Adrar">01- Adrar</option>
 				<option value="02- Chlef">02- Chlef</option>
 				<option value="03- Laghouat">03- Laghouat</option>
@@ -170,19 +170,6 @@
 		<input type="text" id="prix" name="prix"readonly /><br><br>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
         <label for="adresse">Adresse de Livraison :</label>
         <textarea id="adresse" name="adresse" required></textarea><br><br>
 
@@ -190,7 +177,7 @@
 				<!-- Vos champs de formulaire ici -->
   
   
-  <input class="commande" type="button" value="Envoyer" onclick="submitForm()">
+ 	 <input class="commande" type="button" value="Envoyer" onclick="submitForm()">
 				
 				</form>
 
