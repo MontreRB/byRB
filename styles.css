@@ -1,135 +1,21 @@
 
-	img {
-  --s: 0px;  /* size of the frame */
-  --b: 1px;   /* border thickness */
-  --w: 600px; /* width of the image */
-  --c: #f2022a;
-  		margin-right: 100px;
-		margin-left: 100px;
-  
-  
-  width: var(--w);
-  aspect-ratio: 1/1;
-  object-fit: contain;
-  padding: calc(2*var(--s));
-  --_g: var(--c) var(--b),#0000 0 calc(100% - var(--b)),var(--c) 0;
-  background:
 
-}
-img:hover {
-  outline: var(--b) solid var(--c);
-  outline-offset: calc(var(--s)/-2);
-  --_i: calc(100% - 3*var(--s));
 
+/* Styles pour les appareils mobiles (par exemple, jusqu'à 600px de large) */
+@media screen and (max-width: 600px) {
+    label, input, select, textarea {
+        width: 100%; /* Pour que les éléments prennent toute la largeur de l'écran */
+        margin: 5px 0; /* Réduisez les marges entre les éléments */
+        font-size: 18px; /* Réduisez la taille de police */
+    }
+
+    .commande {
+        width: 100%; /* Les boutons occupent toute la largeur de l'écran */
+        font-size: 24px; /* Ajustez la taille de police des boutons */
+    }
 }
 
 
-
-
-.header {
-  	height: 12vh;
-	  background: ##faf7f8;
-  	background-image: 
-	  linear-gradient(to right bottom, 
-     rgba(85, 107, 47, 8 ),
-     rgba(240, 108, 1, 0.2)),
-     
-  	
-	background-size: cover;
-  	background-position: top;
-  	position: relative;
-
-
-  	clip-path: polygon(0 0, 100% , 100% , 0 100%);
-	
-}
-titre {
-            color: black;
-			font-family: 'Helvetica', cursive;
-			font-size: 60px;
-        }
-	
-
-
-.footer{
-  	height: 2vh;
- text-align: center;
-	background-size: cover;
-  	background-position: top;
-	padding: 50px;
-  	position: relative;
-	  background: #f5e6c4;
-	  font-family: 'Helvetica', cursive;
-
-  	clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-	
-	
-}
-
-
-
-
-
-
-
-
-
-
-body {
-  		 
-		  margin: center;
-		  height: 100%;
-		  width: 100%;
-		  padding: 0px;
-		  padding-left: 0px;
-		  margin: 0px;
-		min-height: 100vh;
-		display: block;
-		margin: 8px;
-  background: #f5e6c4;
-  font-family: 'Helvetica', cursive;
-
-}
-
-
-
-
-
-
-div_DesItem {
-color:black;
-font-size: 30px;
-}
-
-p {
-color:black;
-font-size: 30px;
-}
-
-
-
-label {
-color:black;
-font-size: 30px;
-display: block;
-            margin-bottom: 5px;
-}
-
-.commande {
-            width: 200px; /* Largeur de 200 pixels */
-            height: 50px; /* Hauteur de 50 pixels */
-            font-size: 22px; /* Taille de police */
-			text-align: center;
-			color: #f5e6c4;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color: #ae9c8f;
-  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-  box-shadow:
-    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -12px -12px 13px rgba(0, 0, 0, 0.6);
-	font-family: 'Helvetica', cursive;
-}
 
 
 
