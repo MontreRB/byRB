@@ -193,8 +193,13 @@
     
     boutonsCommande.forEach(function(bouton) {
         bouton.addEventListener("click", function() {
-            const h2Text = bouton.closest('.product').querySelector("h2").textContent;
+            const product = bouton.closest('.product');
+            const h2Text = product.querySelector("h2").textContent;
+            const h3Text = product.querySelector("h3").textContent;
+
             sessionStorage.setItem("h2text", h2Text);
+            sessionStorage.setItem("h3text", h3Text);
+
             window.open("Formulaire.html", "_blank");
         });
     });
