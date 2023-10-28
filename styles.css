@@ -23,8 +23,9 @@
 
 input {
 font-color:black;
-font-size: 28px;
-width: width: 60%;;
+font-size: 26px;
+width: 95%;
+min-height: 2em;	
 }
 
 #wilaya {
