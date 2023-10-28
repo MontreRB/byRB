@@ -156,11 +156,7 @@
 
     // Mettre à jour la valeur du champ d'entrée du prix en fonction du choix
 
-   selectElement.addEventListener("change", function() {
-        const selectedOption = selectElement.value;
-        let prix = "";
-     
-    if (livraisonType === "agence") {
+     if (livraisonType === "agence") {
   const prixagence = prixParwilayaagence[wilayaSelectionne];
   prixInput.value = prixagence !== undefined ? prixagence + " DA" : "Non desservie";
 } else {
