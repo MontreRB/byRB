@@ -17,10 +17,6 @@
 
 
 
-
-
-
-
 input {
 font-color:black;
 font-size: 26px;
@@ -28,47 +24,14 @@ width: 95%;
 min-height: 2em;	
 }
 
-#wilaya {
-    font-family: Arial, sans-serif; /* Police */
-	font-size: 28px;
-    color: Black; /* Couleur du texte */
-    background-color: white;
-	width: 20%;
-    padding: 5px; /* Marge intérieure */
-    border: 1px solid #ccc; /* Bordure */
-}
+select {
+font-color:black;
+font-size: 26px;
+width: 95%;
+min-height: 2em;	
+}	
 
 
-#livraison {
-    font-family: Arial, sans-serif; /* Police */
-	font-size: 28px;
-    color: Black; /* Couleur du texte */
-    background-color: white;
-	width: 20%;
-    padding: 5px; /* Marge intérieure */
-    border: 1px solid #ccc; /* Bordure */
-}
-
-#commande {
-   
-    width: 60%; /* Permet à la largeur de s'ajuster automatiquement */
-	font-size: 28px;
-}
-#wilaya {
-   
-    width: 30%; /* Permet à la largeur de s'ajuster automatiquement */
-	font-size: 30px;
-	color:brown-negro;
-}
-
-
-
-#adresse {
-   
-    width: 50%; /* Permet à la largeur de s'ajuster automatiquement */
-	font-size: 30px;
-	color:brown-negro;
-}
 
 
 
