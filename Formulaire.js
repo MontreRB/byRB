@@ -1,13 +1,20 @@
 
 // script pour coller auto de la commande choisi   
    document.addEventListener("DOMContentLoaded", function() {
-        const h2text = sessionStorage.getItem("h2text");
-        const commandeInput = document.getElementById("commande");
-        if (commandeInput && h2text) {
-            commandeInput.value = h2text;
-        }
-    });
-
+    const h2text = sessionStorage.getItem("h2text");
+    const h3text = sessionStorage.getItem("h3text");
+    
+    const commandeInput = document.getElementById("commande");
+    const prixCommandeInput = document.getElementById("prixcommande");
+    
+    if (commandeInput && h2text) {
+        commandeInput.value = h2text;
+    }
+    
+    if (prixCommandeInput && h3text) {
+        prixCommandeInput.value = h3text;
+    }
+});
 
 
 // Commentaires : Script des prix.
