@@ -26,6 +26,8 @@
   livraisonSelect.addEventListener("change", () => {
     const livraisonType = livraisonSelect.value;
     const wilayaSelectionne = wilayaSelect.value;
+     const selectedOption = selectElement.value;
+                let prix = "";
 
     // Définir les prix pour chaque wilaya lorsque "au stop agence" est choisi
     const prixParwilayaagence = {
