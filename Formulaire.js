@@ -173,10 +173,4 @@ wilayaSelect.addEventListener("change", () => {
   livraisonSelect.selectedIndex = 0;
 });
 
-function doPost(e) {
-  // Effectuez le traitement des données du formulaire ici
-
-  // Redirigez l'utilisateur directement vers la page "merci.html"
-  return ContentService.createTextOutput('<script>window.location = "https://script.google.com/macros/s/AKfycbxVMHalDJO7rRXQuRdPzafcz4Lmi5-7F1ihIxbknVn0kecyT_PuwS2yA1YGRV8Q_Fk/exec";</script>');
-}
 
