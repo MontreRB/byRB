@@ -7,7 +7,7 @@
     const commandeTextarea = document.getElementById("commandeTextarea");
     const prixCommandeInput = document.getElementById("prixcommande");
     
-    if (commandeInput && h2text) {
+    if (commandeTextarea && h2text) {
         commandeTextarea.value = h2text;
     }
     
