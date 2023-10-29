@@ -168,5 +168,6 @@
   wilayaSelect.addEventListener("change", () => {
     // Réinitialiser le champ de saisie du prix en le vidant
     prixInput.value = "";
+    livraisonInput.value = "";
   });
   
