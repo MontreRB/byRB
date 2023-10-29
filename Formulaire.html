@@ -87,7 +87,7 @@
 
 
 	
-	<form action="https://script.google.com/macros/s/AKfycbzhH7QY7aooYIU-2dyCP0-2mS8BI1Z1e_pNJbYfIBv4zpFZs9hLyIkU9Gv7Ad11gc8/exec" method="post">
+	<form action="https://script.google.com/macros/s/AKfycbzDpwCyygaj8PMkoaF40iHTW7yHZlExK3Tzi015D-LMEoY-Dbhm3AbdjSv_KUs-l-8/exec" method="post">
 	
 	<h1>Ma Commande</h1>
 	<textarea name="commande" id="commandeTextarea" style="width: 100%;" rows="2" wrap="soft" readonly></textarea>
@@ -185,6 +185,14 @@
 				
 				
 <button class="commande" type="submit" name="acheter">J'achete</button>
+
+		<script>
+  const boutonAcheter = document.getElementById('boutonAcheter');
+
+  boutonAcheter.addEventListener("click", function() {
+    window.open("merci.html", "_blank");
+  });
+</script>
 
     </form>
 
