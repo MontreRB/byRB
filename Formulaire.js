@@ -4,11 +4,13 @@
     const h2text = sessionStorage.getItem("h2text");
     const h3text = sessionStorage.getItem("h3text");
     
+    const textarea = document.getElementById("commandeTextarea");
     const commandeInput = document.getElementById("commande");
     const prixCommandeInput = document.getElementById("prixcommande");
     
     if (commandeInput && h2text) {
         commandeInput.value = h2text;
+        commandeTextarea.value = h2text;
     }
     
     if (prixCommandeInput && h3text) {
