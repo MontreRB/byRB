@@ -170,6 +170,6 @@ wilayaSelect.addEventListener("change", () => {
   prixInput.value = "";
 
   // Réinitialiser le champ de sélection de la livraison en le vidant
-  livraisonSelect.value = "";
+  livraisonSelect.selectedIndex = 0;
 });
 
