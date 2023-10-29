@@ -38,7 +38,12 @@ width: 95%;
 min-height: 3em;	
 }
 
-
+commandeTextarea{
+font-color:black;
+font-size: 26px;
+width: 95%;
+min-height: 3em;	
+}
 
 
 
