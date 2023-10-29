@@ -172,8 +172,8 @@
   });
   // Écouteur d'événements pour détecter le changement dans la deuxième liste (wilaya)
   wilayaSelect.addEventListener("change", () => {
-    // Réinitialiser le champ de saisie de la livraison en le vidant
-    livraisonInput.value = "";
+    // Réinitialiser le champ de selection de la livraison en le vidant
+    livraisonselect.value = "";
     
   });
 ;
