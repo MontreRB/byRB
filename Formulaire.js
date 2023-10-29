@@ -168,6 +168,12 @@
   wilayaSelect.addEventListener("change", () => {
     // Réinitialiser le champ de saisie du prix en le vidant
     prixInput.value = "";
-    livraisonInput.value = "";
+    
   });
-  
+  // Écouteur d'événements pour détecter le changement dans la deuxième liste (wilaya)
+  wilayaSelect.addEventListener("change", () => {
+    // Réinitialiser le champ de saisie de la livraison en le vidant
+    livraisonInput.value = "";
+    
+  });
+;
