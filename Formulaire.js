@@ -164,16 +164,12 @@
   prixInput.value = prixdomicile !== undefined ? prixdomicile + " DA" : "Non desservie";
 }
   });
- // Écouteur d'événements pour détecter le changement dans la deuxième liste (wilaya)
-  wilayaSelect.addEventListener("change", () => {
-    // Réinitialiser le champ de saisie du prix en le vidant
-    prixInput.value = "";
-    
-  });
-  // Écouteur d'événements pour détecter le changement dans la deuxième liste (wilaya)
-  wilayaSelect.addEventListener("change", () => {
-    // Réinitialiser le champ de selection de la livraison en le vidant
-    livraisonselect.value = "";
-    
-  });
-;
+// Écouteur d'événements pour détecter le changement dans la liste déroulante "wilaya"
+wilayaSelect.addEventListener("change", () => {
+  // Réinitialiser le champ de saisie du prix en le vidant
+  prixInput.value = "";
+
+  // Réinitialiser le champ de sélection de la livraison en le vidant
+  livraisonSelect.value = "";
+});
+
