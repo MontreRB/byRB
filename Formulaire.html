@@ -1,8 +1,11 @@
+<!DOCTYPE html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Montres By rb</title>
+	
     <link rel="stylesheet" type="text/css" href="styles.css">
+	
     <style>
        
         header {
@@ -93,16 +96,26 @@
 	<textarea name="commande" id="commandeTextarea" style="width: 100%;" rows="2" wrap="soft" readonly></textarea>
       
 	<h1>Prix de ma Commande</h1>
-        <input type="text" id="prixcommande" name="prixcommande" readonly><br><br>
+        <input type="text" id="prixcommande" name="prixcommande" readonly>
 	
        	<h1>Nom & Prénom </h1>
-        <input type="text" id="nom" name="nom" required><br><br>
+        <input type="text" id="nom" name="nom" required>
 
       	<h1>Téléphone </h1>
-        <input type="tel" id="telephone" name="telephone" pattern="[0-9\s()-]+" required><br><br>
+        <input type="tel" id="telephone" name="telephone" pattern="[0-9\s()-]+" required>
+		
+		
+			<h1>Lieu de Livraison </h1>
+        <select id="livraison"   value="Choisir" name="livraison"required  onchange="handleLieuLivraison()">
+				<option value="home"></option>
+				<option value="domicile">A Domicile</option>
+				<option value="agence">agence</option>
+			</select>
+			
 		
 	<h1>Wilaya </h1>
-	<select id="wilaya" name="wilaya"required>
+	<select id="wilaya" name="wilaya" onchange="chargerCommunes()"required>
+				<option value="Choisir Wilaya">Choisir Wilaya</option>
 				<option value="01- Adrar">01- Adrar</option>
 				<option value="02- Chlef">02- Chlef</option>
 				<option value="03- Laghouat">03- Laghouat</option>
@@ -160,23 +173,48 @@
 				<option value="55- Touggourt">55- Touggourt</option>
 				<option value="56- Djanet">56- Djanet</option>
 				<option value="57- El M’Ghaier">57- El M’Ghaier</option>
-				<option value="58- Meniaa">58- Meniaa</option>
-		</select><br><br>
-
-	<h1>Lieu de Livraison </h1>
-        <select id="livraison"  name="livraison"required>
-				<option value="domicile"></option>
-				<option value="domicile">A Domicile</option>
-				<option value="agence">Au Stop Agence</option><br><br>
+				<option value="58- EL Meniaa">58- EL Meniaa</option>
+		</select>
 		
-	</select><br><br>
+		
+			
+		<script src="Formulaire.js"></script>	
+		
+		
+			   <h1>Agence</h1>
+        <select id="agence" value="agence" name="agence" onchange="mettreAJourPrix()" required>
+		
+            <!-- Cette liste sera mise à jour dynamiquement -->
+        </select>
+       <script src="agences.js"></script>
+	   
+	    
+		
+		
+
+		
+		        <h1>Commune</h1>
+        <select id="commune"  type="text" value="commune" name="commune" onchange="mettreAJourPrix()" required>
+            <!-- Cette liste sera mise à jour dynamiquement -->
+        </select>
+		
+		
+ 		   <script src="communes.js"></script>
+			
+	  <script src="prixagences.js"></script>
+	
+
+
+			
+			
+			
 	<h1>Prix Livraison </h1>
-	<input type="text" id="prix" name="prix"readonly /><br><br>
+	<input type="text" id="prix" name="prix"readonly />
 	
 
 
         <h1>Adresse de Livraison </h1>
-        <textarea id="adresse" name="adresse" ></textarea><br><br>
+        <textarea id="adresse" name="adresse"   onchange="handleLieuLivraison()"></textarea><br><br>
 
 	
   
@@ -198,7 +236,8 @@
 
 
 	 
-<script src="Formulaire.js"></script>
+
+
 
 
 
