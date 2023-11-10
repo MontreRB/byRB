@@ -1684,8 +1684,13 @@ function mettreAJourPrix() {
 "EL Meniaa": 950,
 "Hassi Fehal": 950,
 "Hassi Gara": 950,
+
+
+
+
   };
-    
+  
+  
   if (agenceType && prixParAgence[agenceType]) {
     prixInput.value = `${prixParAgence[agenceType]} DA`;
   } else if (communeType && prixParCommune[communeType]) {
