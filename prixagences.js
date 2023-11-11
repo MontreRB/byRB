@@ -198,7 +198,7 @@ function mettreAJourPrix() {
 "Aïn Madhi": 800,
 "Aïn Sidi Ali (Non livrable)": 00,
 "Beidha (Non livrable)": 00,
-"Bennasser Benchohra":,: 00,
+"Bennasser Benchohra": 00,
 "Brida (Non livrable)": 00,
 "El Assafia": 800,
 "El Ghicha": 800,
